@@ -1,0 +1,145 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+
+}
+.wrapper {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),#C36A2D), url(aesthetic.jpg) ;
+	background-size: cover;
+	height: 100vh;
+}
+.cover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),#C36A2D), url(aesthetic.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.video{
+	margin-top: 50px;
+	margin-left: 450px;
+	width: 450px;
+    background: rgba(0,0,0,0.6);
+    padding: 49px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.navbar {
+	margin-top: 0;
+	height: 100px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+.logo{
+	margin-top: -160px;
+	float: left;
+	width:210px;
+	height: auto;
+	padding: 30px 0px;
+}
+.navbar ul{
+	float: left;
+	margin-left: -7	0px;
+
+}
+.navbar ul li{
+padding: 0 -5px;
+list-style: none;
+margin-right: 0 20px;
+display: inline-block;
+line-height: 90px;
+}
+.navbar ul li a{
+
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding:6px 13px;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Fuzzy Bubbles', cursive;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: #DAD992;
+	border-radius: 2px;	
+}
+.wrapper .center {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+}
+.center h1 {
+	color: #DAD992;
+	font-size: 70px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+.center h3 {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	width: 885px;
+	margin-top: 5px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+.center .buttons {
+	margin: -10px 280px;
+}
+.buttons button{
+	height: 40px;
+	width: 120px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #DAD992;
+	background: #C36A2D;
+	border: 1px solid #cc0000;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+} 
+.buttons .btn {
+	margin: 25px;
+}
+.buttons button: {
+	background: white;
+}
+
+.box {
+	float: right;
+	margin-top: -810px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50px, 50px);		
+}
+input[type="text"]
+{
+	background: #FFF;
+	width: 200px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding:0 25px;
+	border-radius: 25px 0 0 25px;
+}
+input[type="submit"]
+{
+	position: relative;
+	border-radius: 0 25px 25px 0;
+	width: 100px;
+	height: 50px;
+	outline: none;
+	cursor: pointer;
+	background: #e1b12c;
+	color: #fff;
+}
+input[type="submit"]:hover {
+	background:#DAD992;
+}
+
